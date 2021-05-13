@@ -1,1 +1,1 @@
-#Desease Prediction 
+# Disease Prediction 
