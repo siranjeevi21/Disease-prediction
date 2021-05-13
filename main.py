@@ -66,9 +66,10 @@ def svc_prediction(Symptom_1, Symptom_2, Symptom_3, Symptom_4, Symptom_5):
 	return model_prediction
 
 def run():
+	st.text("Author: Siranjeevi")
 	st.title("Select Symptoms to predict your Result")
 	
-	st.text("		Author: Siranjeevi")
+	
 	html_temp="""
 	"""
 	st.markdown(html_temp)
