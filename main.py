@@ -67,7 +67,8 @@ def svc_prediction(Symptom_1, Symptom_2, Symptom_3, Symptom_4, Symptom_5):
 
 def run():
 	st.title("Select Symptoms to predict your Result")
-	st.text("Warning: These predictions are not 100 percent accurate")
+	
+	st.text("Author: Siranjeevi")
 	html_temp="""
 	"""
 	st.markdown(html_temp)
@@ -130,10 +131,10 @@ def run():
 	if st.button("Predict"):
 		prediction=svc_prediction(symptoms_dictionary[s1], symptoms_dictionary[s2], symptoms_dictionary[s3], symptoms_dictionary[s4], symptoms_dictionary[s5])
 
-	st.success("The prediction by model :{}".format(prediction))
+	st.success("The predicted Disease is :{}".format(prediction))
 	st.text("Note: This prediction is predicted by Support Vector Classifier (Machine Learning) Model")
 	st.write("This model was created for purpose on Hypotheticsl testing by asking, 'Is that Machine has the capacity to predict  Human disease from just Enough five Symptoms from patients?'")
-	
+	st.text("Warning: These predictions are not 100 percent accurate")
 
 if __name__=='__main__':
 	run()
