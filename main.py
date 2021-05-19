@@ -134,7 +134,7 @@ def run():
 
 	st.success("The predicted Disease is :{}".format(prediction))
 	st.text("Note: This prediction is predicted by Support Vector Classifier (Machine Learning) Model")
-	st.write("This model was created for purpose on Hypotheticsl testing by asking, 'Is that Machine has the capacity to predict  Human disease from just Enough five Symptoms from patients?'")
+	st.write("This model was created for purpose on Hypothetical testing by asking, 'Is that Machine has the capacity to predict  Human disease from just Enough five Symptoms from patients?'")
 	st.text("Warning: These predictions are not 100 percent accurate")
 
 if __name__=='__main__':
